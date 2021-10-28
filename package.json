@@ -1,0 +1,25 @@
+{
+  "name": "spa_js_vanilla",
+  "version": "1.0.0",
+  "description": "SPA",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode=development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^6.4.1",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
